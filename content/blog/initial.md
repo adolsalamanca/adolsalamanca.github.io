@@ -1,6 +1,6 @@
 ---
 title: "Breaking the ice"
-description: "Initial post to start writing down ideas and opinions about software engineering."
+description: "Initial post"
 dateString: Dec 2022
 draft: false
 tags: ["initial", "icebreaker"]
@@ -16,9 +16,13 @@ Well, that moment has arrived :)
 ## Why?
 
 Yes, I'm just another software geek in this big world, but still I believe it is interesting to share as much as possible stuff with the community.
-In this case, there's not much to share, this blog is a simple Hugo project making use of PaperMode theme in ProfileMode, I will leave a link with instructions easy to follow.
+In this case, there's just a few details to share: the blog.
+
+It is a simple Hugo project, making use of PaperMode theme, below you can find a couple of links.
 
 ## Links
 
-* Link to [Hugo](https://gohugo.io/)
-* Link to [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+* [Hugo](https://gohugo.io/)
+* [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+
+---
