@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://adolsalamanca.github.io/sitemap.xml
