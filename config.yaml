@@ -1,0 +1,66 @@
+baseURL: "https://adolsalamanca.github.io/"
+languageCode: "en-US"
+title:  "Adol's"
+theme: 'PaperMod'
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  socialIcons:
+      - name: "Github"
+        url: "https://github.com/adolsalamanca/"
+      - name: "LinkedIn"
+        url: "https://www.linkedin.com/in/adolfo-rodriguez-garcia/"
+  profileMode:
+    enabled: true
+    title: "Adol Rodriguez"
+    subtitle: Welcome to another software engineering blog.
+    imageUrl: "https://avatars.githubusercontent.com/u/15842171?v=4"
+    imageTitle: "Adol"
+    imageWidth: 256
+    imageHeight: 256
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
