@@ -1,7 +1,7 @@
-baseURL: "https://adolsalamanca.github.io/"
-languageCode: "en-US"
-title:  "Adol's"
-theme: 'PaperMod'
+baseURL: https://adolsalamanca.github.io/
+languageCode: en-US
+title:  Adol's
+theme: PaperMod
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -14,16 +14,16 @@ minify:
 params:
   env: production
   socialIcons:
-      - name: "Github"
-        url: "https://github.com/adolsalamanca/"
-      - name: "LinkedIn"
-        url: "https://www.linkedin.com/in/adolfo-rodriguez-garcia/"
+      - name: Github
+        url: https://github.com/adolsalamanca/
+      - name: LinkedIn
+        url: https://www.linkedin.com/in/adolfo-rodriguez-garcia/
   profileMode:
     enabled: true
-    title: "Adol Rodriguez"
+    title: Adol Rodriguez
     subtitle: Welcome to another software engineering blog.
-    imageUrl: "https://avatars.githubusercontent.com/u/15842171?v=4"
-    imageTitle: "Adol"
+    imageUrl: https://avatars.githubusercontent.com/u/15842171?v=4
+    imageTitle: Adol
     imageWidth: 256
     imageHeight: 256
 
